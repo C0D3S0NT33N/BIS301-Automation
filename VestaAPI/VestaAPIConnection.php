@@ -5,7 +5,7 @@ class VestaAPIConnection {
     // Server credentials
     private $vst_hostname = 'st.tni.ac.th';
     private $vst_username = 'admin';
-    private $vst_password = 'Int#105@Fit';
+    private $vst_password = '';
     private $vst_port     = '8083';
     private $vst_returncode = 'yes';
     private $postvars = [];
