@@ -14,7 +14,7 @@ $database   = new stdClass();
  * Fetch Database Data
  */
 
-$pdo = new PDO("mysql:host=st.tni.ac.th;dbname=admin_bis301", 'admin_bis301', 'Int#105@Fit');
+$pdo = new PDO("mysql:host=st.tni.ac.th;dbname=admin_bis301", 'admin_bis301', '');
 
 $sql = "SELECT * FROM groups";
 $sth = $pdo->query($sql);
