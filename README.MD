@@ -1,4 +1,4 @@
-Type this CLI below to run the program.
+Type the command below to run the program.
 ```
 php run.php
 ```
