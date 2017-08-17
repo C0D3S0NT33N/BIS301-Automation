@@ -2,7 +2,7 @@
 
 Replace your database credential in Line 18
 ```
-$pdo = new PDO("mysql:host=st.tni.ac.th;dbname=<b>mydatabasename</b>", '<b>mydatabaseuser</b>', '<b>password</b>');
+$pdo = new PDO("mysql:host=st.tni.ac.th;dbname=mydatabasename", 'mydatabaseuser', 'password');
 ```
 
 2. Type the command below to run the program.
