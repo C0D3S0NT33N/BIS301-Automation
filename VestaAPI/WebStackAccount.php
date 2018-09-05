@@ -10,6 +10,8 @@ require('Models/Database.php');
 class WebStackAccount extends Controller {
 
     public static function create ($args) {
+        
+        $sleepTime = 2;
 
         /**
          * Arguments Extraction
@@ -46,6 +48,8 @@ class WebStackAccount extends Controller {
             'firstName' => trim($account->firstName),
             'lastName'  => trim($account->lastName)
         ]);
+        
+        sleep($sleepTime);
 
         /**
          * Create Web Space
@@ -56,6 +60,8 @@ class WebStackAccount extends Controller {
                 'domain'    => $web->domain
             ]);
         });
+        
+        sleep($sleepTime);
 
         /**
          * Create Database
@@ -69,6 +75,9 @@ class WebStackAccount extends Controller {
                 'db_host' => $database->db_host
             ]);
         });
+        
+        sleep($sleepTime);
+        
         echo "\n";
     }
 }
