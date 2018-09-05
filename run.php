@@ -34,6 +34,7 @@ while($group = $sth->fetch()) {
     $database->db_name    = 'web';
     $database->db_user    = 'web';
     $database->db_pass    = $group->password;
+    $database->db_host    = 'db.st.tni.ac.th' // db.st.tni.ac.th OR 172.16.55.101
 
     /**
      * Create Web Stack Account
