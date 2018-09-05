@@ -65,7 +65,8 @@ class WebStackAccount extends Controller {
                 'username' => $database->username,
                 'db_name' => $database->db_name,
                 'db_user' => $database->db_user,
-                'db_pass' => $database->db_pass
+                'db_pass' => $database->db_pass,
+                'db_host' => $database->db_host
             ]);
         });
         echo "\n";
