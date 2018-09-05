@@ -8,7 +8,9 @@ class Database extends Model {
             'arg1' => $database['username'],
             'arg2' => $database['db_name'],
             'arg3' => $database['db_user'],
-            'arg4' => $database['db_pass']
+            'arg4' => $database['db_pass'],
+            'arg5' => 'mysql',
+            'arg6' => $database['db_host']
         ]);
         $response = $vesta->execute();
 
