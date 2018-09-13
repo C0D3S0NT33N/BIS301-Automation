@@ -14,7 +14,7 @@ $database   = new stdClass();
  * Fetch Database Data
  */
 
-// Edit your credential here.
+// Your credentials of the database which your group data has stored.
 $pdo = new PDO("mysql:host=st.tni.ac.th;dbname=mydatabasename", 'mydatabaseuser', 'password');
 
 $sql = "SELECT * FROM groups";
