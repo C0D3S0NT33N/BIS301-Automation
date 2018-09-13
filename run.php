@@ -30,7 +30,7 @@ while($group = $sth->fetch()) {
     $account->firstName   = $group->group_name;
     $account->lastName    = 'BIS-301';
 
-    $web->domain = "bis301-$group->subdomain.st.tni.ac.th";
+    $web->domain = "bis301-{$group->subdomain}.st.tni.ac.th";
 
     // VestaCP has default database and username prefix, e.g. groupname_web
     $database->db_name    = 'web'; 
